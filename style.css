@@ -1,0 +1,39 @@
+body {
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.liste {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+label {
+  color: aliceblue;
+}
+
+input {
+  height: 20px;
+  border-radius: 5px;
+  border: none;
+}
+button {
+  height: 25px;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 3px;
+}
+
+.ulContainer {
+  list-style: none;
+  color: aliceblue;
+}

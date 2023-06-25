@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="contacts">
+      <label>Nom:</label>
+      <input type="text" name="Nom" placeholder="Nom" id="inputNom" />
+      <label>Prénom :</label>
+      <input type="text" name="Prenom" placeholder="Prénom" id="inputPrenom" />
+      <label>Email :</label>
+      <input type="email" name="Email" placeholder="Email" id="inputEmail" />
+      <label>Numéro de telephone :</label>
+      <input
+        type="tel"
+        name="Phone"
+        placeholder="Numéro de telephone"
+        id="inputNumero"
+      />
+      <button type="submit" value="submit" id="button" onclick="">
+        enregistrer
+      </button>
+      <p id="message"></p>
+    </form>
+    <div>
+      <div class="liste">
+        <input type="text" placeholder="saisie le Nom" class="saisie" />
+        <button type="button" class="rechercher">rechercher</button
+        ><button class="sortFilter">Filtrer au plus rÃ©cent</button>
+      </div>
+      <ul class="ulContainer"></ul>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
